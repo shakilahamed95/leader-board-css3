@@ -1,13 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 679px;
+    padding: 33px;
+}
+.section-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+}
 /* top players style */
+.top-players{
+    margin-bottom: 30px;
+}
 .players{
    display: grid;
    grid-template-columns:repeat(3,1fr);
+   grid-row-gap: 30px;
 }
 .player{
     display: flex;
     align-items: center;
+   
 }
 .players img{
     width: 56px;
     height: 56px;
+}
+.player-name{
+    padding-left: 16px;
+}
+hr{
+    width: 807px;
+    height: 0px;
+    left: 315px;
+    top: 410px;
+    border: 1px solid #D1D1D1;
+}
+/* .............blog style........... */
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
 }
