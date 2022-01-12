@@ -47,10 +47,16 @@ hr{
     left: 315px;
     top: 410px;
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 /* .............blog style........... */
 .blog{
     display: flex;
+}
+.blogs{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
 }
 .blog .thumbnail img{
     width: 177px;
