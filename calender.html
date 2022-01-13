@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+
+    <style>
+        .body {
+            border: 0;
+        }
+
+        .calender {
+            height: 200px;
+            width: 300px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: .5em;
+
+        }
+
+        .date {
+            background-color: navajowhite;
+            display: flex;
+            font-size: .7em;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+
+        }
+
+        .date1 {
+            background-color: lightskyblue;
+        }
+
+        .date2 {
+            background-color: palevioletred;
+            color: white;
+        }
+
+        .date:hover {
+            background-color: slateblue;
+            color: white;
+            font-size: 2em;
+        }
+
+        .date1:hover {
+            background-color: tomato;
+        }
+
+        .date2:hover {
+            background-color: palevioletred;
+            color: white;
+            font-size: .7em;
+        }
+
+        .friday {
+            background-color: turquoise;
+        }
+
+        .friday:hover {
+            background-color: orange;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: steelblue;
+            border-radius: 5px;
+            color: white;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(4, .2fr);
+            justify-content: center;
+            margin: 0;
+
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+    <section>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="january">
+            <table>
+                <tr>
+                    <td>
+                        <h1>
+                            JANUARY
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="calender">
+                            <div class="date date2">S</div>
+                            <div class="date date2">M</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">W</div>
+                            <div class="date date2">T</div>
+                            <div class="date date2">F</div>
+                            <div class="date date2">S</div>
+
+                            <div class="date date1">26</div>
+                            <div class="date date1">27</div>
+                            <div class="date date1">28</div>
+                            <div class="date date1">29</div>
+                            <div class="date date1">30</div>
+                            <div class="date date1 friday">31</div>
+                            <div class="date">1</div>
+                            <div class="date">2</div>
+                            <div class="date">3</div>
+                            <div class="date">4</div>
+                            <div class="date">5</div>
+                            <div class="date">6</div>
+                            <div class="date friday">7</div>
+                            <div class="date">8</div>
+                            <div class="date">9</div>
+                            <div class="date">10</div>
+                            <div class="date">11</div>
+                            <div class="date">12</div>
+                            <div class="date">13</div>
+                            <div class="date friday">14</div>
+                            <div class="date">15</div>
+                            <div class="date">16</div>
+                            <div class="date">17</div>
+                            <div class="date">18</div>
+                            <div class="date">19</div>
+                            <div class="date">20</div>
+                            <div class="date friday">21</div>
+                            <div class="date">22</div>
+                            <div class="date">23</div>
+                            <div class="date">24</div>
+                            <div class="date">25</div>
+                            <div class="date">26</div>
+                            <div class="date">27</div>
+                            <div class="date friday">28</div>
+                            <div class="date">29</div>
+                            <div class="date">30</div>
+                            <div class="date">31</div>
+                            <div class="date date1">1</div>
+                            <div class="date date1">2</div>
+                            <div class="date date1">3</div>
+                            <div class="date date1 friday">4</div>
+                            <div class="date date1">5</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+</body>
+
+</html>
